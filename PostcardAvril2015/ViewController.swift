@@ -42,7 +42,7 @@ class ViewController: UIViewController {
         
         nameLabel.hidden = false
         nameLabel.text = enterNameTextField.text
-        nameLabel.backgroundColor = UIColor.blueColor()
+        nameLabel.textColor = UIColor.blueColor()
         
         enterNameTextField.text = ""
         enterNameTextField.resignFirstResponder()
